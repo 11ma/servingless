@@ -4,6 +4,10 @@
   functions = "netlify/functions"
   publish = "public"
 
+# to work with esm
+[functions]
+  node_bundler = "esbuild"
+
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
   #[[redirects]]
